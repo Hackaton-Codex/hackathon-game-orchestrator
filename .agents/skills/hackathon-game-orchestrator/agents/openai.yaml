@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hackathon Game Orchestrator"
+  short_description: "Coordinate an adaptable hackathon game project"
+  default_prompt: "Help our team plan and deliver a small playable game for a hackathon. First inspect the project and ask what game, technology, and event rules we have chosen."
