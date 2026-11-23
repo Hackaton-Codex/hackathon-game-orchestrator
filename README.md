@@ -1,29 +1,25 @@
-# Agente base para la hackathon
+# Toolkit para juegos de hackatón
 
-Skill neutral para ayudar al equipo a planificar, coordinar e integrar un juego durante la hackathon. Se adapta al reto, género y tecnología elegidos por el equipo; no incluye un juego ni un motor preseleccionado.
+Este repositorio reúne instrucciones reutilizables, skills opcionales y evaluaciones de prueba. No prescribe el juego, género, estilo ni tecnología que el equipo vaya a elegir.
 
-Evento: [Build Games with Codex](https://hackathon.codexparatodos.com/). Revisa el sitio oficial para confirmar cambios en reglas y entrega.
+## Empezar por aquí
 
-## Contenido
+1. Abre el repositorio del proyecto en Codex.
+2. Activa `hackathon-game-orchestrator` y comparte el reto, el tiempo, la experiencia técnica del equipo y las reglas sobre trabajo previo.
+3. Define una versión mínima jugable y comprueba pronto que otra persona pueda ejecutarla.
+4. Añade skills especializadas solo cuando el juego las necesite.
 
-- `AGENTS.md`: instrucciones generales del orquestador.
-- `.agents/skills/hackathon-game-orchestrator/SKILL.md`: flujo reutilizable para analizar el proyecto, acordar tecnología, planificar una ruta jugable y preparar la entrega.
-- `.agents/skills/hackathon-game-orchestrator/agents/openai.yaml`: nombre y prompt inicial del skill.
-- `README-HACKATHON.md`: plantilla de README para el juego del equipo.
+La organización del evento debe confirmar si permite traer trabajo avanzado. Si la regla no está clara, el orquestador limita el trabajo a planificación y herramientas reutilizables.
 
-## Uso
+## Qué es reutilizable
 
-Abre el repositorio del juego en Codex y activa o menciona `hackathon-game-orchestrator`. Antes de implementar, comparte el reto, las tecnologías que conoce el equipo y las reglas sobre trabajo previo. El agente ayudará a documentar los acuerdos en el README o `PLAN.md` del juego.
+- [`AGENTS.md`](AGENTS.md): reglas generales de coordinación y perfiles de especialidad. Los perfiles son funciones de trabajo; no son agentes ya creados o asignados.
+- [`.agents/skills/`](.agents/skills/): skills reutilizables, cada una con su propio criterio de activación.
+- [`README-HACKATHON.md`](README-HACKATHON.md): plantilla para documentar y entregar el juego que se decida.
+- [Compendio en Markdown](docs/COMPENDIO_SKILLS_AGENTES.md) y [PDF](docs/pdf/compendio-skills-y-agentes.pdf): inventario, cuándo usar cada skill y límites conocidos.
 
-El skill está preparado para web, Godot, Unity u otra tecnología que el equipo elija. No inicializa un juego ni instala herramientas antes de confirmar esos acuerdos.
+## Qué pertenece al caso de estudio Maite
 
-## Biblioteca de skills y evaluaciones
+La carpeta [`case-studies/maite-rumbo-al-salar/`](case-studies/maite-rumbo-al-salar/README.md) contiene resultados de pruebas hechas con **Maite: Rumbo al Salar**. Maite fue una prueba de skills y de creación de juegos web; no es una decisión sobre la hackatón ni hay certeza de que se continúe. El código y los assets originales del juego no están en este repositorio.
 
-Este repositorio reúne el orquestador neutral y skills opcionales que se pueden elegir según el reto y la tecnología. **Maite: Rumbo al Salar** aparece solo como caso de prueba: no fija el juego, estilo ni stack de la hackathon.
-
-- [Compendio de skills, perfiles y resultados (Markdown)](COMPENDIO_SKILLS_AGENTES.md)
-- [Compendio en PDF](output/pdf/compendio-skills-y-agentes.pdf)
-- Skills incluidas: [diseño pixel art](.agents/skills/cozy-pixelart-design/SKILL.md), [escenas 2.5D](.agents/skills/dimensional-pixel-scenes/SKILL.md), [mapas y cámara](.agents/skills/spatial-map-camera-flow/SKILL.md), [retratos](.agents/skills/character-identity-portraits/SKILL.md), [animación de sprites](.agents/skills/sprite-animation-pipeline/SKILL.md), [ficha de personaje](.agents/skills/character-reference-sheet-maintainer/SKILL.md), [revisión de puzles](.agents/skills/puzzle-design-reviewer/SKILL.md), [prototipado RPG web](.agents/skills/rpg-web-prototyping/SKILL.md) y [orquestación de hackathon](.agents/skills/hackathon-game-orchestrator/SKILL.md).
-- Evidencias: [cantera](skill-evaluations/cantera-chile/README.md), [arte de personaje](skill-evaluations/character-art/README.md), [narrativa y balance](skill-evaluations/narrative-balance/README.md) y [puzles](skill-evaluations/puzzles/referencias-mecanicas.md).
-
-Las imágenes de evaluación son previsualizaciones JPG comprimidas para revisión en GitHub. Los PNG originales del caso de prueba y el código del juego no forman parte de esta biblioteca.
+Las previsualizaciones de esa carpeta están comprimidas para revisión web. Los hallazgos sirven como ejemplos de evaluación, no como reglas del proyecto futuro.
