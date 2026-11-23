@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Identity and Portraits"
+  short_description: "Keep character portraits and expressions consistent"
+  default_prompt: "Use $character-identity-portraits to create or review consistent character portraits and expression atlases."

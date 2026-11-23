@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Reference Sheet Maintainer"
+  short_description: "Keep character story and art assets in sync"
+  default_prompt: "Use $character-reference-sheet-maintainer to create or update a reviewable character sheet linked to the current art assets."

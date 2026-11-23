@@ -1,0 +1,4 @@
+interface:
+  display_name: "Puzzle Design Reviewer"
+  short_description: "Check puzzle clarity, logic, clues, and retries"
+  default_prompt: "Use $puzzle-design-reviewer to audit a game puzzle's clues, solution, feedback, controls, and retry behavior."

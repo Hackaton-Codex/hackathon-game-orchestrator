@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spatial Map and Camera Flow"
+  short_description: "Validate routes, rooms, and camera transitions"
+  default_prompt: "Help me design or review connected game spaces, walkability, interior transitions, and viewpoint continuity."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cozy Pixel-Art Design"
+  short_description: "Create original, readable top-down pixel art"
+  default_prompt: "Help me design or review an original, cohesive top-down pixel-art scene or asset."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dimensional Pixel Scenes"
+  short_description: "Blend pixel characters with deep environments"
+  default_prompt: "Help me plan or review a dimensional game scene with pixel-art characters, clear camera and depth."

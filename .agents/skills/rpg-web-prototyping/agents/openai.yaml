@@ -1,0 +1,4 @@
+interface:
+  display_name: "RPG Web Prototyping"
+  short_description: "Plan and build browser RPG prototypes"
+  default_prompt: "Help me plan or implement a playable narrative RPG web prototype."

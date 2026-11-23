@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sprite Animation Pipeline"
+  short_description: "Build configurable sprite sheets and motion cycles"
+  default_prompt: "Use $sprite-animation-pipeline to create or review character sprite sheets and movement cycles at my chosen resolution."
